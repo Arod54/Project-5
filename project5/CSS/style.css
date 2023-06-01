@@ -1,0 +1,78 @@
+.image1 {
+    border-radius: 35px;
+    float:center;
+    height: 200px; 
+    width: 165px;
+    object-fit: cover;
+    margin-right: 10px;    
+  }
+  
+  body {
+    background-image: url("spaace.jpg");
+    background-size: cover;
+  }
+  
+  nav{
+   display: flex;
+   align-items:center;
+   justify-content:space-between;
+   padding: 10px;
+   color: white;
+  }
+  
+  nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 15px;
+    color: white;
+  }
+  
+  nav ul li a{
+    color: white;
+    text-decoration:none;
+    font-weight: bold;
+  }    
+      
+  .welcome, .me {
+    background: lightsteelblue;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+      
+  .info th, table {
+    background-image: url("driving.gif"), url("driving.gif");
+    background-size: 420px;
+    color: white;
+    width: 20%;
+    text-align: center;
+  }
+    
+  h2 {
+    padding: 15px;
+    margin-left: 15px;
+  } 
+  
+  .socials {
+    text-align: center;
+  }
+  
+  .btn {
+    font-family:monospace;
+    font-size: 0.8rem;
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+    padding: 5px;
+    transition: all 0.6s;
+  }
+   
+  
+  
+   .btn:hover { 
+     transform: translateY(-1px);
+     background-color: black;
+     color: white;
+  } 
